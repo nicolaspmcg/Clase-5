@@ -1,0 +1,31 @@
+.contenedor{
+	max-width: 1000px;
+	margin: auto;
+}
+.menu{
+	width: 25%;
+	float: left;
+	background: yellow;
+}
+
+.contenido{
+	float: right;
+	width: 75%;
+	background: red;
+}
+
+header{
+	background: limegreen;
+	padding: 40px 0;
+}
+
+.texto, .imagen{
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.imagen img{
+	max-width: 100%;
+}

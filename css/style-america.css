@@ -1,0 +1,58 @@
+.contenedor{
+	max-width: 1000px;
+	margin: auto;
+	position: absolute;
+}
+
+.circulo{
+	border-radius: 50%;
+}
+
+.uno{
+	background: red;
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+}
+
+.dos{
+	background: white;
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.tres{
+	background: red;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.cuatro{
+	background: darkblue;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.cinco{
+	position: absolute;
+}
+
+.ion-android-star{
+    font-size: 460px;
+    color: white;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    top: -49px;
+    left: 14px;
+    line-height: 0px;
+}
