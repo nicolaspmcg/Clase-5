@@ -1,0 +1,66 @@
+@keyframes Hello {
+	from {background: black;}
+	to {background: grey;}
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 50px;
+}
+
+.caja-1{
+	background:blue;
+	height: 100px;
+	width: 100px;
+	flex: 1;
+	order: 1;
+	transition: height 2s;
+}
+
+.caja-2{
+	background: radial-gradient(yellow, orange, red);;
+	height: 100px;
+	width: 100px;
+	flex: 2;
+	order: 3;
+}
+
+.caja-3{
+	background:green;
+	height: 100px;
+	width: 100px;
+	flex: 1;
+	order: 4;
+}
+
+.caja-4{
+	background:cyan;
+	height: 100px;
+	width: 100px;
+	flex: 1;
+	order: 2;
+	transition: height 2s;
+}
+
+.caja-5{
+	background:black;	
+	height: 100px;
+	width: 100px;
+	flex: 1;
+	order: 5;
+}	
+
+.caja-1:hover{
+	height: 200px;
+}
+
+.caja-4:hover{
+	height: 50px;
+}
+
+.caja-5:hover{
+	animation-name: Hello;
+	animation-duration: 4s;
+}
